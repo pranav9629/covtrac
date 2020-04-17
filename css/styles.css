@@ -1,0 +1,273 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  width: 100%;
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #222831;
+  color: #fff;
+  width: 100%;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+
+
+.navbar-brand {
+  font-size: 1.2rem;
+  height: 1cm;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #222831;
+  color: #fff;
+  text-align: left;
+  margin-top: 10px;
+  height: 20cm;
+}
+
+#title 
+.text-1 {
+  margin-top: 1cm;
+  font-family: 'Gill Sans', ;
+  font-size: 3.6rem;
+  right: 35%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 130%;
+  transform: rotate(-5deg);
+  position: absolute;
+  right: -29%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #fdd998;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #f5b971;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #30475e;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #30475e;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-family: 'Segoe UI';
+  color: #686464;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+.card-group {
+  padding: 2cm;
+}
+/* CTA Section */
+#cta {
+  background-color: #222831;
+  color: #fff;
+  text-align: left;
+  margin-top: 10px;
+  height: 15cm;
+
+}
+
+#cta .title-image{
+  width: 120%;
+  transform: rotate(-5deg);
+  position: absolute;
+  right: 15%;
+  top: -17%;
+}
+
+.cta-app{
+  right:0cm;
+}
+
+.cta-play{
+  right: -6cm;
+  top: -1.5cm;
+}
+.col-lg-6{
+  width: 100%;
+}
+
+/* Footer Section */
+
+
+
+
+@media (max-width: 1028px) {
+  
+  .navbar-brand {
+  font-size: 1rem;
+  height: 1cm;
+}
+
+
+  #title {
+    text-align: center;
+    width: 100%;
+  }
+
+  .text-2{
+    text-align: left;
+  }
+  .title-image {
+    position: sticky;
+    transform: rotate();
+    max-width: 100%;
+    visibility: hidden;
+    display: inline-block;
+}
+#cta{
+  text-align: left; 
+  position: relative;
+}
+
+
+.card-deck{
+  align-items: center;
+}
+
+ .cta-app{
+  right: -1cm;
+}
+
+.cta-play{
+  top:0.5cm;
+  right: -1cm;
+}
+
+.som{
+  width: 80%;
+  font-size: 0.75rem;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+
+.som{
+  width: 80%;
+  font-size: 1rem;
+}
+
+@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('fonts/Lato-Black.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+}
+}
